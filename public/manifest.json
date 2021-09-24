@@ -8,12 +8,17 @@
     "default_popup": "/index.html",
     "default_icon": "logo512.png"
   },
+  "background": {
+    "scripts": ["main.js"],
+    "persistent": false
+  },
   "icons": {
     "512": "logo512.png"
   },
   "permissions": [
     "storage",
     "tabs",
+    "alarms",
     "activeTab",
     "http://*/*",
     "https://*/*"
